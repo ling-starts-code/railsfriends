@@ -1,4 +1,7 @@
 <div id="<%= dom_id friend %>">
+
+  <% if friend.user == current_user %>
+  <% if user_signed_in? %> 
   <p>
     <strong>First name:</strong>
     <%= friend.first_name %>
@@ -23,9 +26,9 @@
     <strong>Twitter:</strong>
     <%= friend.twitter %>
   </p>
+ 
+  <% else %>
+  <% end %>
 
-  <p>
-  <strong>User Id:</strong>
-  <%= friend.user_id %>
-</p>
+  <% end %>
 </div>
