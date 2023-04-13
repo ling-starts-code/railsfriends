@@ -1,5 +1,7 @@
 # README
 
+My name is ling and this is my first rails app
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
